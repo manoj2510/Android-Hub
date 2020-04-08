@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myandroidhub">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".webview.WebViewActivity"></activity>
+        <activity android:name=".snackbar.SnackBarActivity" />
+        <activity android:name=".intent.IntentActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBkUs0kLNX9sQobnLK91nHGFzI3a2p24jM" />
+
+        <activity
+            android:name=".location.GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps" />
+        <activity android:name=".galleryimage.GalleryActivity" />
+        <activity android:name=".CameraApp.CameraActivity" />
+        <activity android:name=".permissions.PermissionActivity" />
+        <activity android:name=".student.DisplayActivity" />
+        <activity android:name=".student.AddToDatabaseActivity" />
+        <activity android:name=".student.StudentActivity" />
+        <activity android:name=".multiplefragment.MultipleActivity" />
+        <activity android:name=".callback.CountyDescriptionFragment" />
+        <activity android:name=".callback.CountriesFragment" />
+        <activity android:name=".callback.CallbackActivity" />
+        <activity android:name=".backstack.ThirdFragment" />
+        <activity android:name=".backstack.SecondFragment" />
+        <activity android:name=".backstack.SampleFragment" />
+        <activity android:name=".backstack.BackstackActivity" />
+        <activity android:name=".fragment.FragmentActivity" />
+        <activity android:name=".picasso.PicassoActivity" />
+        <activity android:name=".sharedpreference.SharedActivity" />
+        <activity android:name=".screenrotate.SecondActivity" />
+        <activity android:name=".screenrotate.RotateActivity" />
+        <activity android:name=".tables.TablesActivity" />
+        <activity android:name=".moviedetails.MovieDetailsActivity" />
+        <activity android:name=".androidteamrecycler.AndroidTeamActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".framelayout.FrameActivity" />
+        <activity android:name=".RelativeActivity" />
+        <activity android:name=".calculator.ResultActivity" />
+        <activity android:name=".calculator.OperationsActivity" />
+        <activity android:name=".myfirstapp.SecondActivity" />
+        <activity android:name=".myfirstapp.MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

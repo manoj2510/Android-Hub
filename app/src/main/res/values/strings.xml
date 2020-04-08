@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyAndroidHub</string>
+    <string-array name="countries">
+        <item>India</item>
+        <item>China</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>Bangladesh</item>
+        <item>Canada</item>
+        <item>Malaysia</item>
+        <item>USA</item>
+    </string-array>
+    <string name="India">India is a vast South Asian country with diverse terrain – from Himalayan peaks to Indian Ocean coastline – and history reaching back 5 millennia. In the north, Mughal Empire landmarks include Delhi’s Red Fort complex and massive Jama Masjid mosque, plus Agra’s iconic Taj Mahal mausoleum.</string>
+    <string name="China">China is a populous nation in East Asia whose vast landscape encompasses grassland, desert, mountains, lakes, rivers and more than 14,000km of coastline.</string>
+    <string name="Australia">Australia is a country and continent surrounded by the Indian and Pacific oceans. Its major cities – Sydney, Brisbane, Melbourne, Perth, Adelaide – are coastal.</string>
+    <string name="Brazil">Brazil, a vast South American country, stretches from the Amazon Basin in the north to vineyards and massive Iguaçu Falls in the south.</string>
+    <string name="Bangladesh">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways.</string>
+    <string name="Canada">Canada is a North American country stretching from the U.S. in the south to the Arctic Circle in the north.</string>
+    <string name="Malaysia">Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It\'s known for its beaches, rainforests.</string>
+    <string name="USA">The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_maps">Map</string>
+</resources>

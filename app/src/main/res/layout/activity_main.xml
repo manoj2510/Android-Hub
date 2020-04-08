@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My First App"
+        android:id="@+id/bt_first_app"
+        android:background="@android:color/holo_red_light"
+        android:layout_margin="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Calculator"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_calculator"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Relative layout"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_relativeLayout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="frame layout"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_frameLayout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Recycler view"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_recyclerview"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Android team"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_android_team"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Movie details"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_movie_details"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Tables"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bt_tables"/>
+
+
+
+</LinearLayout>

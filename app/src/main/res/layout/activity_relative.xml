@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Click me"
+            android:id="@+id/bt_button1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_alignParentRight="true"
+            android:text="Click me"
+            android:id="@+id/bt_button2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            android:text="Click me"
+            android:id="@+id/bt_button3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Click me"
+            android:id="@+id/bt_button4"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is First Line"
+        android:id="@+id/tv_first"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_first"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv_left"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Middle"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_first"
+        android:layout_toRightOf="@+id/tv_left"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv_mid"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_first"
+        android:layout_toRightOf="@+id/tv_mid"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv_right"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click me"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_right"
+        android:layout_marginRight="20dp"
+        android:id="@+id/bt_button"/>
+</RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
